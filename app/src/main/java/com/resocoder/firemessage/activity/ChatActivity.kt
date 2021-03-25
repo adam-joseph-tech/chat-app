@@ -1,4 +1,4 @@
-package com.resocoder.firemessage
+package com.resocoder.firemessage.activity
 
 import android.app.Activity
 import android.content.Intent
@@ -9,6 +9,8 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.firestore.ListenerRegistration
+import com.resocoder.firemessage.AppConstants
+import com.resocoder.firemessage.R
 import com.resocoder.firemessage.model.ImageMessage
 import com.resocoder.firemessage.model.TextMessage
 import com.resocoder.firemessage.model.User

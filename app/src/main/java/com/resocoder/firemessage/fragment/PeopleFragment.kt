@@ -9,7 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.firestore.ListenerRegistration
 import com.resocoder.firemessage.AppConstants
-import com.resocoder.firemessage.ChatActivity
+import com.resocoder.firemessage.activity.ChatActivity
 
 import com.resocoder.firemessage.R
 import com.resocoder.firemessage.recyclerview.item.PersonItem

@@ -1,8 +1,9 @@
-package com.resocoder.firemessage
+package com.resocoder.firemessage.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.resocoder.firemessage.R
 import com.resocoder.firemessage.fragment.MyAccountFragment
 import com.resocoder.firemessage.fragment.PeopleFragment
 import kotlinx.android.synthetic.main.activity_main.*

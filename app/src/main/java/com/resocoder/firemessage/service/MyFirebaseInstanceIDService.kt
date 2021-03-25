@@ -3,14 +3,14 @@ package com.resocoder.firemessage.service
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.iid.FirebaseInstanceId
 import com.google.firebase.iid.FirebaseInstanceIdService
+import com.google.firebase.messaging.FirebaseMessagingService
 import com.resocoder.firemessage.util.FirestoreUtil
 
 
-class MyFirebaseInstanceIDService : FirebaseInstanceIdService() {
+class MyFirebaseInstanceIDService : FirebaseMessagingService() {
 
-    override fun onTokenRefresh() {
-        val newRegistrationToken = FirebaseInstanceId.getInstance().token
-
+    override fun onNewToken(newRegistrationToken: String) {
+        super.onNewToken(newRegistrationToken)
         if (FirebaseAuth.getInstance().currentUser != null)
             addTokenToFirestore(newRegistrationToken)
     }

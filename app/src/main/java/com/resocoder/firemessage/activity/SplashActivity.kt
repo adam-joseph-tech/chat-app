@@ -1,4 +1,4 @@
-package com.resocoder.firemessage
+package com.resocoder.firemessage.activity
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

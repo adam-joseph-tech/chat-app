@@ -14,7 +14,7 @@ import com.bumptech.glide.Glide
 import com.firebase.ui.auth.AuthUI
 
 import com.resocoder.firemessage.R
-import com.resocoder.firemessage.SignInActivity
+import com.resocoder.firemessage.activity.SignInActivity
 import com.resocoder.firemessage.util.FirestoreUtil
 import com.resocoder.firemessage.util.StorageUtil
 import kotlinx.android.synthetic.main.fragment_my_account.*
